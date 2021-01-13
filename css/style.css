@@ -1,14 +1,24 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
+.do-margin-on-button{
+    margin-left: 1em;
+}
 .orange-highlight{
-    color: rgb(255, 157, 0);
+    color: #FA804C;
 }
 .max-size{
     margin: 0;
     font-size: 65px;
     font-weight: bold;
 }
-.banner-right-side{
-    padding-left: 90px;
+.do-padding img, .do-radius{
+    border-radius: 2em !important;
+    background-color: rgb(226, 226, 226);
+}
+.do-padding{
+    padding: 1em;
+}
+.card-radius{
+    border-radius: 2em;
 }
