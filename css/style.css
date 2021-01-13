@@ -1,0 +1,14 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.orange-highlight{
+    color: rgb(255, 157, 0);
+}
+.max-size{
+    margin: 0;
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-right-side{
+    padding-left: 90px;
+}
