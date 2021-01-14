@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light  container pt-5">
+        <nav class="navbar navbar-expand-lg navbar-light container pt-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="logo/Logo.png" alt="" width="250px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -24,10 +24,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active pe-3" aria-current="page" href="#">Home</a>
-                        <a class="nav-link px-3" href="#">Features</a>
-                        <a class="nav-link px-3" href="#">Pricing</a>
-                        <a class="nav-link ps-3" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link pe-3 dark-blue-font" href="#">Home</a>
+                        <a class="nav-link px-3 dark-blue-font" href="#casual-product">Casual Shoes</a>
+                        <a class="nav-link px-3 dark-blue-font" href="#formal-product">Formal Shoes</a>
+                        <a class="nav-link px-3 dark-blue-font" href="#about-us">About us</a>
+                        <a class="nav-link ps-3 dark-blue-font" href="#contact">Contact us</a>
                     </div>
                 </div>
             </div>
@@ -52,9 +53,9 @@
         </section>
     </header>
     <main class="container mt-5">
-        <section class="casual-shoe mb-5 ">
+        <section class="casual-shoe mb-5" id="casual-product">
             <h1 class="mb-5 fw-bold  dark-blue-font catagory-heading">CASUAL SHOES</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col ">
                     <div class="card h-100 card-radius shadow">
                         <div class="do-padding">
@@ -105,9 +106,9 @@
                 </div>
             </div>
         </section>
-        <section class="formal-shoe mt-5 mb-5 pb-5">
+        <section class="formal-shoe mt-5 mb-5 pb-5" id="formal-product">
             <h1 class="mb-5 fw-bold dark-blue-font mt-5 pt-5 catagory-heading" >FORMAL SHOES</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col ">
                     <div class="card h-100 card-radius shadow">
                         <div class="do-padding-catagory2">
@@ -158,27 +159,27 @@
                 </div>
             </div>
         </section>
-        <section class="container">
-            <div class="row row-cols-md-2 mt-5">
+        <section class="container" id="about-us">
+            <div class="row row-cols-md-2 mt-5 mb-5 pb-5">
                 <div class="last-sections-container col-md-6">
                     <div class="last-sections-parts shadow">
                         <div class="last-section-img"><img src="icon/top.png" alt=""></div>
                         <div class="last-sections-info">
-                            <h4 class="fw-bold">Find the Perfect Fit</h4>
+                            <h4 class="fw-bold dark-blue-font">Find the Perfect Fit</h4>
                             <p>Everybody is different, which is why weoffer styles for every body</p>
                         </div>
                     </div>
                     <div class="last-sections-parts shadow">
                         <div class="last-section-img"><img src="icon/mid.png" alt=""></div>
                         <div class="last-sections-info">
-                            <h4 class="fw-bold">Free Exchanges</h4>
+                            <h4 class="fw-bold dark-blue-font">Free Exchanges</h4>
                             <p>One of the many reasons you can shop with peace of mind.</p>
                         </div>
                     </div>
                     <div class="last-sections-parts shadow">
                         <div class="last-section-img"><img src="icon/bottom.png" alt=""></div>
                         <div class="last-sections-info">
-                            <h4 class="fw-bold">Contact Our Seller</h4>
+                            <h4 class="fw-bold dark-blue-font">Contact Our Seller</h4>
                             <p>They are here to help you. That's quite literally what we pay them for.
                             </p>
                         </div>
@@ -190,10 +191,18 @@
             </div>
         </section>
     </main>
-
-
-
+<section class="extra-section" id="contact">
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1522.0167512111527!2d89.3956781594409!3d24.86431751478672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc555b9489a85d%3A0x453942617929c05a!2zTm92ZWx0eSBCRCDgpqjgp4vgpq3gp4fgprLgpp_gpr8g4Kas4Ka_4Kah4Ka_!5e0!3m2!1sen!2sbd!4v1610630315246!5m2!1sen!2sbd" class="p-2" width="80%" height="80%" frameborder="0" style="border-radius: 2em; border:0; padding: 5em;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+    </div>
+    <div class="extra-info">
+        <h2 class="dark-blue-font">Lets stay with us for more !!!!</h2>
+        <p class="orange-highlight">To get notify of discount subscribe now !!!</p>
+        <input type="email" name="email" id="" width="100%" >
+        <button type="submit" class="btn buy-btn" style="margin-top: 1em; color: white;">Subscribe</button>
+    </div>
+</section>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
-
+    
 </html>
