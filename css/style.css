@@ -1,8 +1,16 @@
 body{
     font-family: 'Oswald', sans-serif;
+    
+}
+body header{
+    height: 100%;
+    background-color: #fff9f4;
 }
 .do-margin-on-button{
     margin-left: 1em;
+}
+.dark-blue-font{
+    color: #363958;
 }
 .orange-highlight{
     color: #FA804C;
@@ -13,20 +21,23 @@ body{
     font-weight: bold;
 }
 .do-padding img{
-    height: 100%;
-    border-radius: 2em !important;
-    background-color: rgb(226, 226, 226);
+    border-radius: 1em !important;
+    background-color: #f1f1f1;
 }
 .do-padding{
-    height:350px ;
     padding: 1em;
+    padding-bottom: 0;
+}
+.do-padding-catagory2{
+    padding: 1em;
+    padding-bottom: 0;
 }
 .card-radius{
-    border-radius: 2em;
+    border-radius: 1em;
     border: 0;
 }
 .buy-btn{
-    background-color: #1212a5;
+    background-image: linear-gradient(#3d4ff3, #3543bc);
     border-radius: .7em;
     padding: 1em 2em;
 }
@@ -58,10 +69,13 @@ body{
 @media(max-width:576px){
     .last-sections-parts{
         width: 100%;
-        height: 200px;
+        height: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+    }
+    .catagory-heading{
         text-align: center;
     }
 }
